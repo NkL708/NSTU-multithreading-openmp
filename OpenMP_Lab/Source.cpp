@@ -26,8 +26,7 @@ void quickSort(int* array, int begin, int end)
     int j = end;
     int pivot = array[(i + j) / 2];
     int temp;
-
-    while (i <= j)
+    while (i < j)
     {
         while (array[i] < pivot)
             i++;
